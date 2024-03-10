@@ -3,7 +3,6 @@
 const fs = require('fs');
 const zlib = require('zlib');
 const step = require('h5.step');
-const uglify = require('uglify-es');
 
 const {options, files} = require(process.argv[2]);
 
